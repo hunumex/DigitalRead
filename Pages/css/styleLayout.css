@@ -8,7 +8,7 @@ a{
     text-decoration: none;
 }
 
-#content{
+#headerContent{
     position: relative;
     width: 80%;
     height: auto;
@@ -23,7 +23,7 @@ a{
     background-color: white;
     width: 100%;
     height: 50px;
-    border-bottom: 1px solid #569098;
+    /*border-bottom: 1px solid #569098;*/
 }
 #header #logo{
     margin: 0 20px;

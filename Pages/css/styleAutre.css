@@ -1,0 +1,20 @@
+*, ::before, ::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.textStatu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 100px;
+    margin: 200px auto;
+
+    background-color: #caeaee;
+}
+.textStatu p{
+    font-size: 40px;
+    color: #405052;
+    font-family : 'Nunito', sans-serif ;
+}

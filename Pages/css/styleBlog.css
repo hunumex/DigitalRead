@@ -1,0 +1,102 @@
+*, ::before, ::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#bodyBlog{
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto;
+    margin: 40px 0;
+}
+.wrapper {
+    /*section catalogue des cours*/
+    width: 100%;
+    background-color: #caeaee;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 20px auto;
+    height: 50px;
+    padding: 20px;
+}
+.wrapper h3{
+    font-weight: lighter;
+    font-family : 'Nunito', sans-serif ;
+}
+.articleContainer{
+    width: 100%;
+    height: auto;
+    padding: 30px;
+    display: grid;
+    grid-template-columns: 230px 230px;
+    grid-template-rows: auto;
+    grid-column-gap: 150px;
+    grid-row-gap: 100px;
+    justify-content: center;
+    align-content: center;
+}
+.article{
+    border: 3px solid #caeaee;
+    width: 250px;
+    height: auto;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto;
+    box-shadow: -5px 5px #caeaee;
+    transition: 0.4s;
+}
+.article:hover {
+    transition: 0.4s;
+    box-shadow: -10px 10px #caeaee;
+}
+.imgArti img{
+    width: 100%;
+}
+.detailArti{
+    height: 220px;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 30% 50% 20%;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px;
+}
+.detailArti .title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.detailArti .title p{
+    font-size: 16px;
+    font-weight: bolder;
+    font-family : 'Nunito', sans-serif ;
+}
+.detailArti .detail{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.detailArti .detail p{
+    font-size: 11.6px;
+    font-family : 'Nunito', sans-serif ;
+    word-spacing: 3px;
+    line-height: 16px;
+    color: rgb(48, 69, 70);
+}
+.auteur{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.auteur .imgAuteur{
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    border: 2px solid #405052;
+    margin-right: 10px;
+}

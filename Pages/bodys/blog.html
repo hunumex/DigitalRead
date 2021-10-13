@@ -4,14 +4,151 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/styleMain.css">
+    <link rel="stylesheet" href="../css/styleLayout.css">
+    <link rel="stylesheet" href="../css/styleBlog.css">
     <link rel="stylesheet" href="../css/styleAutre.css">
+
+    <!-- link for font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https : //fonts.googleapis.com/css2? family= Roboto:wght@100 & display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https : //fonts.googleapis.com/css2? family= Quicksand:wght@300 & family= Roboto:wght@100 & display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https : //fonts.googleapis.com/css2? family= Quicksand:wght@300 & family= Roboto:wght@100 & display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https : //fonts.googleapis.com/css2? family= Nunito:wght@200 & display=swap" rel="stylesheet">
     <title>Blog </title>
 </head>
 <body>
-    <main>
-        <div class="textStatu">
-            <p>Page en développement</p>
+    <main id="main">
+        <header id="headerContent">
+        <div id="header">
+            <div id="logo" class="blog"><p><a href="index.html">LibotaCommunity</a></p></div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Acceuil</a></li>
+                    <li><a href="catalogue.html">Categorie</a></li>
+                </ul>
+                <div class="commu">
+                    <p>Communoté</p>
+                    <img src="../../Fonts/downBack.svg" alt="" srcset="">
+                </div>
+                <div id="commuMenu" class="menuHidden">
+                    <a href="blog.html"><p>Blog</p></a>
+                    <a href="tutoriel.html"><p>Tutoriels</p></a>
+                </div>
+            </nav>
         </div>
+        </header>
+
+        <main id="bodyBlog">
+            <div class="wrapper">
+                <h3>LibotaCommunity Blog</h3>
+            </div>
+            <div class="articleContainer">
+                <a href="#">
+                    <div class="article">
+                        <div class="imgArti">
+                            <img src="../../Images/fire.jpg" alt="image de l'article">
+                        </div>
+                        <div class="detailArti">
+                            <div class="title">
+                                <p>Qu'est-ce que l'exploration de données ?</p>
+                            </div>
+                            <div class="detail">
+                                <p>L'exploration de données ne se limite pas à l'extraction ou à l'exploration de données. Cela implique également de transformer les données brutes en informations pouvant être utilisées pour prendre des décisions.</p>
+                            </div>
+                            <div class="auteur">
+                                <span class="imgAuteur"></span>
+                                <p>Marck lorenzo</p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="article">
+                        <div class="imgArti">
+                            <img src="../../Images/fire.jpg" alt="image de l'article">
+                        </div>
+                        <div class="detailArti">
+                            <div class="title">
+                                <p>Principales questions d'entretien SQL à pratiquer</p>
+                            </div>
+                            <div class="detail">
+                                <p>Un peu de préparation peut grandement vous donner la confiance dont vous avez besoin pour faire la meilleure impression possible pendant le processus d'entretien.</p>
+                            </div>
+                            <div class="auteur">
+                                <span class="imgAuteur"></span>
+                                <p>ofilia stone</p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="article">
+                        <div class="imgArti">
+                            <img src="../../Images/fire.jpg" alt="image de l'article">
+                        </div>
+                        <div class="detailArti">
+                            <div class="title">
+                                <p>A quoi sert Kotlin ?</p>
+                            </div>
+                            <div class="detail">
+                                <p>Kotlin est un langage de programmation publié en 2011 par JetBrains, une société qui vend des environnements de développement intégrés (IDE) pour les langages de programmation.</p>
+                            </div>
+                            <div class="auteur">
+                                <span class="imgAuteur"></span>
+                                <p>Eliel Mungo</p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </main>
+
+        <footer>
+            <div class="menuFooter">
+                
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elite
+                </p>
+                <ul>
+                    <li><a href="#"><strong>DigitalRead</strong></a></li>
+                    <li><a href="#">Qui sommes-nous ?</a></li>
+                    <li><a href="#">Nous contacter</a></li>
+                    <li><a href="#">___</a></li>
+                </ul>
+                <hr style="background-color: #569098;
+                width: 3%;">
+                <ul>
+                    <li><a href="#"><strong>Communoté</strong></a></li>
+                    <li><a href="#">forum</a></li>
+                    <li><a href="#">blog</a></li>
+                    <li><a href="#">___</a></li>
+                </ul>
+                <hr style="background-color: #569098;
+                width: 3%;">
+                <ul>
+                    <li><a href="#"><strong>Reseaux</strong></a></li>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">Twitter</a></li>
+                </ul>
+            </div>
+            <div class="copyR">
+                <p><em>copyright</em> &copy; 2021 by DigitalRead</p>
+            </div>
+        </footer>
     </main>
+    
+    <script bufer src="../js/app.js"></script>
 </body>
 </html>

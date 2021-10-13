@@ -1,0 +1,94 @@
+*, ::before, ::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.wrapper {
+    /*section catalogue des cours*/
+    width: 100%;
+    background-color: #caeaee;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 20px auto;
+    height: 50px;
+    padding: 20px;
+}
+.wrapper h3{
+    font-weight: lighter;
+    font-family : 'Nunito', sans-serif ;
+}
+.tutoContainer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.tutoContainer .tuto{
+    width: 600px;
+    height: 300px;
+    border: 3px solid #caeaee;
+    transition: 0.4s;
+    box-shadow: -5px 5px #caeaee;
+    margin: 50px 0;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-template-rows: 100%;
+}
+.tutoContainer .tuto:hover{
+    transition: 0.4s;
+    box-shadow: -10px 10px #caeaee;
+}
+.tutoContainer .tuto .imgTuto{
+    padding: 10px;
+}
+.tutoContainer .tuto .imgTuto img{
+    width: 100%;
+    height: 100%;
+}
+.tutoContainer .tuto .detailTuto{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 30% 50% 20%;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px;
+    height: 100%;
+}
+.tutoContainer .tuto .detailTuto .title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.tutoContainer .tuto .detailTuto .title p{
+    font-size: 16px;
+    font-weight: bolder;
+    font-family : 'Nunito', sans-serif ;
+}
+.tutoContainer .tuto .detailTuto .detail{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.tutoContainer .tuto .detailTuto .detail p{
+    font-size: 11.6px;
+    font-family : 'Nunito', sans-serif ;
+    word-spacing: 3px;
+    line-height: 16px;
+    color: rgb(48, 69, 70);
+}
+.tutoContainer .tuto .detailTuto .auteur{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.tutoContainer .tuto .detailTuto .auteur .imgAuteur{
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    border: 2px solid #405052;
+    margin-right: 10px;
+}

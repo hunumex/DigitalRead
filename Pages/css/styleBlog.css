@@ -32,7 +32,7 @@
     height: auto;
     padding: 30px;
     display: grid;
-    grid-template-columns: 230px 230px;
+    grid-template-columns: 230px 230px 230px;
     grid-template-rows: auto;
     grid-column-gap: 150px;
     grid-row-gap: 100px;

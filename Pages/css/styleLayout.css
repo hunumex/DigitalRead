@@ -10,6 +10,9 @@ a{
 
 #headerContent{
     position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     width: 100%;
     height: auto;
     margin: 0 auto;
@@ -21,7 +24,7 @@ a{
     justify-content: flex-start;
     align-items: center;
     background-color: white;
-    width: 100%;
+    width: 50%;
     height: 50px;
     margin: 10px 0;
     /*border-bottom: 1px solid #569098;*/
@@ -30,7 +33,7 @@ a{
     margin: 0 20px;
 }
 #header #logo p{
-    color:#569098 ;
+    color:#a0e2eb ;
     font-size: 30px;
     font-family:'Righteous' ;
     border-radius: 8px;
@@ -105,6 +108,14 @@ a{
 .menuHidden{
     top: -100px;
 }
+#profil{
+    background-color: white;
+    height: 50px;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 /*footer*/
 
@@ -145,7 +156,6 @@ footer .copyR{
     justify-content: center;
     width: 80%;
     margin: auto;
-    border-top: 1px solid  #569098;
 }
 
 footer .copyR p{

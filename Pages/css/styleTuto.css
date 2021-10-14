@@ -15,14 +15,16 @@
     padding: 20px;
 }
 .wrapper h3{
+    margin: 20px;
     font-weight: lighter;
     font-family : 'Nunito', sans-serif ;
 }
 .tutoContainer{
     width: 100%;
     height: auto;
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: 40% 40%;
+    grid-template-rows: auto;
     justify-content: center;
     align-items: center;
 }

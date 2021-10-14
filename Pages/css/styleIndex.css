@@ -14,8 +14,9 @@
 }
 .bannier{
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 40% 40%;
     grid-template-rows: 100%;
+    justify-content: center;
     height: 250px;
     background-color: #caeaee;
     padding: 30px;
@@ -64,9 +65,10 @@
 }
 .sec1{
     display: grid;
-    grid-template-columns: 100%;
+    grid-template-columns: 80%;
     grid-template-rows: 20% 80%;
-    background-color: #42585B;
+    justify-content: center;
+    background-color: #000000;
     height: 200px;
 }
 .sec1 .title{
@@ -88,10 +90,17 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(196,196,196,0.20);
+    background-color: rgba(0, 0, 0, 0.2);
     width: 180px;
     height: 120px;
-    box-shadow: -10px 10px #caeaee;
+    transition: 0.4s;
+    border: 3px solid #caeaee;
+    box-shadow: -5px 5px #a0e2eb;
+}
+.sec1 .elements .element:hover{
+    transition: 0.4s;
+    border: 3px solid #caeaee;
+    box-shadow: -10px 10px #a0e2eb;
 }
 .sec1 .elements .element div{
     display: flex;
@@ -107,8 +116,9 @@
 }
 .sec2{
     display: grid;
-    grid-template-columns: 100%;
+    grid-template-columns: 80%;
     grid-template-rows: 50% 50%;
+    justify-content: center;
     height: 400px;
 }
 .sec2 .title{
@@ -151,8 +161,9 @@
 }
 .sec3{
     display: grid;
-    grid-template-columns: 100%;
+    grid-template-columns: 80%;
     grid-template-rows: 20% 80%;
+    justify-content: center;
     background-color: #42585B;
     height: 250px;
     margin: 10px 0;
